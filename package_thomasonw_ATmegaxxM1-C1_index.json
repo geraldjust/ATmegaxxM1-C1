@@ -191,12 +191,12 @@
           "help": {
             "online": ""
           },
-          "url": "https://github.com/geraldjust/ATmegaxxM1-C1/blob/gh-pages/ATmegaxxM1-C1-1.0.9.zip",
+          "url": "https://github.com/geraldjust/ATmegaxxM1-C1/raw/gh-pages/ATmegaxxM1-C1-1.0.9.zip",
           "archiveFileName": "ATmegaxxM1-C1-1.0.9.zip",
-          "checksum": "SHA-256:05e9ffc6be954fb335b6dd4c40a0a1a700fb57ee482e7acb54e4fe1e949c459d",
-          "size": "258788",
+          "checksum": "SHA-256:ac8612b6245c2e107bb28ef99a552460fa34c3b656c702ee7b4b96520e80b494",
+          "size": "198721",
           "boards": [
-          	{"name": "ATmega16M1"},
+		{"name": "ATmega16M1"},
             {"name": "ATmega32M1"},
             {"name": "ATmega64M1"}
           ],
