@@ -14,6 +14,9 @@
 # Modified by: FalconFour - 1/6/20
 # Notes: Added support for ATmega16M1
 #
+# Modified by: GeraldJust - 06/14/20
+# Notes: Added support for 32c1, 64c1(no boot loader, only programmer). Also added Protection Bit support
+#
 #
 ##############################################################
 
@@ -49,10 +52,24 @@ ATmegaxxM1/C1.menu.variant.32m1.upload.maximum_data_size=2048
 
 ATmegaxxM1/C1.menu.variant.16m1=ATmega16m1
 ATmegaxxM1/C1.menu.variant.16m1.build.mcu=atmega16m1
-ATmegaxxM1/C1.menu.variant.16m1.build.board=ATmega16M1
+ATmegaxxM1/C1.menu.variant.16m1.build.board=ATmega16M1_16xtl
 ATmegaxxM1/C1.menu.variant.16m1.build.name2=atmega16M1
-ATmegaxxM1/C1.menu.variant.16m1.upload.maximum_size=15872
+ATmegaxxM1/C1.menu.variant.16m1.upload.maximum_size=16128
 ATmegaxxM1/C1.menu.variant.16m1.upload.maximum_data_size=1024
+
+ATmegaxxM1/C1.menu.variant.64c1=ATmega64c1
+ATmegaxxM1/C1.menu.variant.64c1.build.mcu=atmega64c1
+ATmegaxxM1/C1.menu.variant.64c1.build.board=ATmega64C1
+ATmegaxxM1/C1.menu.variant.64c1.build.name2=atmega64C1
+ATmegaxxM1/C1.menu.variant.64c1.upload.maximum_size=64512
+ATmegaxxM1/C1.menu.variant.64c1.upload.maximum_data_size=4096
+
+ATmegaxxM1/C1.menu.variant.32c1=ATmega32c1
+ATmegaxxM1/C1.menu.variant.32c1.build.mcu=atmega32c1
+ATmegaxxM1/C1.menu.variant.32c1.build.board=ATmega32C1_16xtl
+ATmegaxxM1/C1.menu.variant.32c1.build.name2=atmega32C1
+ATmegaxxM1/C1.menu.variant.32c1.upload.maximum_size=32256
+ATmegaxxM1/C1.menu.variant.32c1.upload.maximum_data_size=2048
 
 ATmegaxxM1/C1.menu.PSC.OFF=OFF
 ATmegaxxM1/C1.menu.PSC.OFF.bootloader.extended_fuses=0x3D
